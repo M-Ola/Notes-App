@@ -52,35 +52,6 @@ The application was developed using:
 
 The application follows an **MVVM (Model-View-ViewModel)** architecture with separate data, domain, presentation, and UI responsibilities.
 
-```text
-┌─────────────────────────────┐
-│           UI Layer          │
-│      Jetpack Compose        │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│     Presentation Layer      │
-│         ViewModels          │
-│         StateFlow           │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│        Domain Layer         │
-│       NoteRepository        │
-│        Note Model           │
-│     Entity ↔ Mappers        │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│         Data Layer          │
-│          Room DB            │
-│   NoteEntity / NoteDao      │
-└─────────────────────────────┘
-```
-
 ### 1. Data Layer
 
 The data layer manages local database storage using **Room**.
@@ -223,7 +194,7 @@ This allows the interface to automatically update whenever the stored notes chan
 A video demonstration of the application can be found here:
 
 **Demo Video:**  
-`Add your Loom or YouTube video link here`
+`https://youtu.be/iU-OKSce9qQ`
 
 ---
 
